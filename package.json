@@ -1,6 +1,6 @@
 {
   "name": "sweep.js",
-  "version": "1.0.0-beta.1",
+  "version": "0.0.1",
   "description": "SweepJS is a javascript package desigend to convert js to pure web code",
   "main": "src/main.js",
   "scripts": {
@@ -15,7 +15,9 @@
     "sweepjs",
     "javascript",
     "js",
-    "sweep.js"
+    "sweep.js",
+    "framework",
+    "front-end"
   ],
   "author": "MrEggo",
   "license": "GPL-3.0",
