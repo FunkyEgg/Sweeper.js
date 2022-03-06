@@ -1,6 +1,6 @@
 {
   "name": "sweep.js",
-  "version": "0.0.1",
+  "version": "1.0.0-beta.0",
   "description": "SweepJS is a javascript package desigend to convert js to pure web code",
   "main": "src/main.js",
   "scripts": {
