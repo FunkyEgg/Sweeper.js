@@ -1,6 +1,6 @@
 # Sweeper.js
 
-Sweep.js is a javascript package desigend to convert js to pure web code.
+Sweeper.js is a javascript package desigend to convert js to pure web code.
 
 ## How to install
 To install Sweeper.js you need to:
