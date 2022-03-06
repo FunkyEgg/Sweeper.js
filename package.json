@@ -1,6 +1,6 @@
 {
   "name": "sweeper.js",
-  "version": "0.0.3",
+  "version": "0.0.3-beta",
   "description": "Sweeper.js is a javascript package desigend to convert js to web code",
   "main": "src/main.js",
   "scripts": {
