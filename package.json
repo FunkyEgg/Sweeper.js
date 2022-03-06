@@ -1,0 +1,23 @@
+{
+  "name": "sweepjs",
+  "version": "0.0.1",
+  "description": "SweepJS is a javascript package desigend to convert js to pure web code\u001b[A\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b\u001b[C:\u001b[B",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrEggoXYZ/SweepJS.git"
+  },
+  "keywords": [
+    "web",
+    "sweepjs"
+  ],
+  "author": "MrEggo",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/MrEggoXYZ/SweepJS/issues"
+  },
+  "homepage": "https://github.com/MrEggoXYZ/SweepJS#readme"
+}
