@@ -1,7 +1,7 @@
 {
-  "name": "sweepjs",
+  "name": "sweep.js",
   "version": "0.0.1",
-  "description": "SweepJS is a javascript package desigend to convert js to pure web code\u001b[A\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b\u001b[C:\u001b[B",
+  "description": "SweepJS is a javascript package desigend to convert js to pure web code",
   "main": "src/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,7 +12,10 @@
   },
   "keywords": [
     "web",
-    "sweepjs"
+    "sweepjs",
+    "javascript",
+    "js",
+    "sweep.js"
   ],
   "author": "MrEggo",
   "license": "GPL-3.0",

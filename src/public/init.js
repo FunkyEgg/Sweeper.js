@@ -6,7 +6,7 @@ const fs = require('fs');
  */
 function init(title) {
     if (!title) { 
-        console.error('Sweepjs: No title given, defaulting to "Sweepjs"');
+        console.error('Sweep.js: No title given, defaulting to "Sweepjs"');
         title = 'Sweepjs';
     }
 
