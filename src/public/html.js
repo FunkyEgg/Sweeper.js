@@ -1,4 +1,4 @@
-const {append} = require('../private/generation');
+const {append} = require('../private/append');
 
 /**
  *  Creates a new html tag element
@@ -6,9 +6,13 @@ const {append} = require('../private/generation');
  *  @param {String} text The text to be appended
  */
 function h(h, text) {
+    if (!h) throw new Error('Sweepjs: No HTML tag given');
+    if (!text) throw new Error('Sweepjs: No text given');
+
     append(`<h${h}>${text}</h${h}>\n`);
 }
 
+//TODO add more html functions
 
 /**
  *  Ends the html document

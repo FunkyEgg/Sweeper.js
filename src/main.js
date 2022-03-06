@@ -1,9 +1,8 @@
-const { initSweep } = require('./private/init');
+const { init } = require('./public/init');
 const { h, endHtml } = require('./public/html');
-
-initSweep();
 
 module.exports = {
     h,
+    init,
     endHtml
 }
