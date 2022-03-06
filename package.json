@@ -1,7 +1,7 @@
 {
-  "name": "sweep.js",
+  "name": "sweeper.js",
   "version": "0.0.1",
-  "description": "SweepJS is a javascript package desigend to convert js to pure web code",
+  "description": "Sweeper.js is a javascript package desigend to convert js to web code",
   "main": "src/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,10 +12,10 @@
   },
   "keywords": [
     "web",
-    "sweepjs",
+    "sweeperjs",
     "javascript",
     "js",
-    "sweep.js",
+    "sweeper.js",
     "framework",
     "front-end"
   ],
