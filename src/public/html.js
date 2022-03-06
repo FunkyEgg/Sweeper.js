@@ -1,9 +1,24 @@
 const {append} = require('../private/generation');
 
-function h1(text) {
-    append(`<h1>${text}</h1>`);
+/**
+ *  Creates a new html tag element
+ *  @param {String} h The HTML tag to be appended
+ *  @param {String} text The text to be appended
+ */
+function h(h, text) {
+    append(`<h${h}>${text}</h${h}>\n`);
 }
 
+
+/**
+ *  Ends the html document
+ */
+function endHtml() {
+    append('</body>\n</html>')
+}
+
+
 module.exports = {
-    h1
+    h,
+    endHtml
 }
