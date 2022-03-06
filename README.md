@@ -1,4 +1,5 @@
 # Sweeper.js
+![Sweeper.js](./.github/iocn.png "Sweeper.js")
 Sweeper.js is a javascript package desigend to convert js to pure web code.
 
 https://www.npmjs.com/package/sweeper.js
