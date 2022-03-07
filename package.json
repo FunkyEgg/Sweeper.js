@@ -1,6 +1,6 @@
 {
   "name": "sweeper.js",
-  "version": "0.0.4-beta",
+  "version": "0.1.0-beta",
   "description": "Sweeper.js is a javascript package desigend to convert js to web code",
   "main": "src/main.js",
   "scripts": {
@@ -17,7 +17,9 @@
     "js",
     "sweeper.js",
     "framework",
-    "front-end"
+    "front-end",
+    "html",
+    "css"
   ],
   "author": "MrEggo",
   "license": "GPL-3.0",
