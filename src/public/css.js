@@ -11,9 +11,7 @@ function color(id, color) {
     if (!id) throw new Error('Sweeper.js: No id given');
     if (!color) throw new Error('Sweeper.js: No color given');
 
-    append(`#${id} {
-        color: ${color};
-    }`, 'css');
+    append(`#${id} { color: ${color}; }`, 'css');
 }
 
 module.exports = {
