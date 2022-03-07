@@ -3,19 +3,21 @@ const {append} = require('../private/append');
 /**
  *  Creates a new html tag element
  *  @param {String} h The HTML tag to be appended
- *  @param {String} id The id of the element
+ *  @param {String} [id] The id of the element
  *  @param {String} text The text to be appended
  */
 function h(h, text, id) {
-    // TODO - Add id to element
-
     if (!h) throw new Error('Sweeper.js: No HTML tag given');
     if (!text) throw new Error('Sweeper.js: No text given');
 
-    append(`<h${h}>${text}</h${h}>`, 'html');
+    if (!id) {
+        append(`<${h}>${text}</${h}>`, 'html');
+    } else {
+        append(`<${h} id="${id}">${text}</${h}>`, 'html');
+    }
 }
 
-//TODO - dd more html functions
+//TODO - Add more html functions
 
 /**
  *  Ends the html document
