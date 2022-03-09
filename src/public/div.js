@@ -7,11 +7,13 @@ const { append } = require('../private/append');
  *  @param {Content} content The content of the div element
  */
 
+// TODO Make the code work
+
 /*
 function div(divClass, content) {
     if (!divClass) throw new Error('Sweeper.js: No class given');
 
-    append(`<div class="${divClass}">${content}</div>`, 'html');
+    append(`<div class="${divClass}">${eval(content)}</div>`, 'html');
 }
 */
 

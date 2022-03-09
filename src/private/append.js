@@ -2,9 +2,9 @@ const fs = require('fs');
 
 const append = (input, ftype) => {
     if (ftype == 'html') {
-    fs.appendFileSync('./sweeperjs/index.html', `${input}\n`);
+    fs.appendFileSync('./sweeper.js/index.html', `${input}\n`);
     } else if (ftype == 'css') {
-    fs.appendFileSync('./sweeperjs/styles.css', `${input}\n`);
+    fs.appendFileSync('./sweeper.js/styles.css', `${input}\n`);
     }
 }
 
