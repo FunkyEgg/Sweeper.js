@@ -10,7 +10,7 @@ function dirAppend(fileType, code) {
     if (!code) throw new Error('Sweeper.js: No code given');
     if (!fileType) throw new Error('Sweeper.js: No file type given');
 
-    append(code, fileType);
+    append(code.toString(), fileType);
 }
 
 module.exports = {
