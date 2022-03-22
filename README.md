@@ -22,5 +22,8 @@ This basic sweeper code ends up outputting, this in a html file
 And this in a css file
 ![Sweeper.js](./.github/codesnap/3.png "Sweeper.js")
 
+## Changelog
+https://github.com/MrEggoXYZ/Sweeper.js/blob/main/.github/changelog.md
+
 # PLEASE SEE
 Sweeper.js is not fully completed and is still in beta, keep in mind that at any moment the syntax and generated code could change
