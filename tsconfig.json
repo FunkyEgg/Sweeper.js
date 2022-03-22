@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES2022",                                 
-    "module": "ES2022",                               
+    "module": "CommonJS",                               
     "esModuleInterop": true,                            
     "forceConsistentCasingInFileNames": true,           
     "strict": true,                                     
@@ -9,5 +9,6 @@
     "outDir": "./build",
     "rootDir": "./src",
     "declaration": true,
+    
   }
 }
