@@ -1,8 +1,8 @@
 {
   "name": "sweeper.js",
-  "version": "0.1.0-beta",
+  "version": "0.1.1-beta",
   "description": "Sweeper.js is a javascript package desigend to convert js to web code",
-  "main": "build/main.js",
+  "main": "./build/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,6 +15,7 @@
     "sweeperjs",
     "javascript",
     "js",
+    "ts",
     "sweeper.js",
     "framework",
     "front-end",
@@ -23,12 +24,12 @@
   ],
   "author": "MrEggo",
   "license": "GPL-3.0",
+  "types": "./build/main.d.ts",
   "bugs": {
     "url": "https://github.com/MrEggoXYZ/Sweeper.js/issues"
   },
   "homepage": "https://github.com/MrEggoXYZ/Sweeper.js#readme",
   "dependencies": {
-    "@types/node": "^17.0.22",
     "fs": "^0.0.1-security"
   }
 }
