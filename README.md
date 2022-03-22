@@ -2,6 +2,8 @@
 ![Sweeper.js](./.github/logo.png "Sweeper.js")
 Sweeper.js is a javascript package desigend to convert js to pure web code.
 
+"Sweeper.js is react but yeah" -MrEggoXYZ
+
 https://www.npmjs.com/package/sweeper.js
 
 ## How to install
