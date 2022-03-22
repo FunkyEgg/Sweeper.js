@@ -1,4 +1,4 @@
-const { append } = require('../private/append');
+import { append } from '../private/append';
 
 
 /**
@@ -10,13 +10,9 @@ const { append } = require('../private/append');
 // TODO Make the code work
 
 /*
-function div(divClass, content) {
+export function div(divClass, content) {
     if (!divClass) throw new Error('Sweeper.js: No class given');
 
     append(`<div class="${divClass}">${eval(content)}</div>`, 'html');
 }
 */
-
-module.exports = {
-    div
-}

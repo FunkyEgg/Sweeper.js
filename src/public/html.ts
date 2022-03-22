@@ -1,4 +1,4 @@
-const {append} = require('../private/append');
+import { append } from '../private/append';
 
 /**
  *  Creates a new html tag element
@@ -6,7 +6,7 @@ const {append} = require('../private/append');
  *  @param {String} [tagClass] The class of the element
  *  @param {String} text The text to be appended
  */
-function h(h, text, tagClass) {
+export function h(h: String, text: String, tagClass: String) {
     if (!h) throw new Error('Sweeper.js: No HTML tag given');
     if (!text) throw new Error('Sweeper.js: No text given');
 
@@ -24,12 +24,6 @@ function h(h, text, tagClass) {
 /**
  *  Ends the html document
  */
-function endHtml() {
+export function endHtml() {
     append('</body>\n</html>', 'html');
-}
-
-
-module.exports = {
-    h,
-    endHtml
 }
