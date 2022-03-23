@@ -6,7 +6,7 @@ import { append } from '../private/append';
  *  @param {String} [tagClass] The class of the element
  *  @param {String} text The text to be appended
  */
-export function h(h: String, text: String, tagClass: String) {
+function h(h: String, text: String, tagClass: String) {
     if (!h) throw new Error('Sweeper.js: No HTML tag given');
     if (!text) throw new Error('Sweeper.js: No text given');
 
@@ -24,6 +24,11 @@ export function h(h: String, text: String, tagClass: String) {
 /**
  *  Ends the html document
  */
-export function endHtml() {
+function endHtml() {
     append('</body>\n</html>', 'html');
+}
+
+export {
+    h,
+    endHtml
 }

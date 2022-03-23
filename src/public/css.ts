@@ -7,10 +7,14 @@ import {append} from '../private/append';
  *  @param {String} [tagClass] The class of the element to be colored
  *  @param {String} color The color to be applied
 */
-export function color(color: String, tagClass: String) {
+function color(color: String, tagClass: String) {
     if (!color) throw new Error('Sweeper.js: No color given');
 
     if (tagClass) {
         append(`.${tagClass} { color: ${color}; }`, 'css');
     } else throw new Error('Sweeper.js: No class given');
+}
+
+export {
+    color
 }
