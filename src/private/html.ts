@@ -10,7 +10,10 @@ function H(h: Number, text: String, tagClass: String) {
     }
 }
 
-
+function P(text: String) {
+    if (!text) throw new Error("Sweeper.js: No text given");
+    append(`<p>${text}</p>`, 'html');
+}
 
 //TODO - Add more html functions
 
@@ -20,5 +23,6 @@ function EndHtml() {
 
 export {
     H,
-    EndHtml
+    EndHtml,
+    P
 }

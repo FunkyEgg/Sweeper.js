@@ -1,6 +1,6 @@
 import fs from 'fs';
 
-import { H, EndHtml } from'../private/html';
+import { H, EndHtml, P } from'../private/html';
 import { Color } from '../private/css';
 import { DirAppend } from '../private/dirAppend';
 
@@ -41,36 +41,44 @@ class Website {
     }
 
     /**
-    *  Creates a new html tag element
-    *  @param {String} h The HTML tag to be appended
-    *  @param {String} [tagClass] The class of the element
-    *  @param {String} text The text to be appended
-    */
+     *  Creates a new html tag element
+     *  @param {String} h The HTML tag to be appended
+     *  @param {String} [tagClass] The class of the element
+     *  @param {String} text The text to be appended
+     */
     h(h: Number, text: String, tagClass: String) {
         H(h, text, tagClass);
+    }
+
+    /**
+     * Creates a new paragraph element
+     * @param {String} text The text to be appended
+     */
+    p(text: String) {
+        P(text);
     }
 
     /**
      *  Colors the given id/class the given color
      *  @param {String} [tagClass] The class of the element to be colored
      *  @param {String} color The color to be applied
-    */
+     */
     color(color: String, tagClass: String) {
         Color(color, tagClass);
     }
 
     /**
-    *  Directly appends to file - NOTE THIS WILL MOST LIKELY BE REMOVED IN THE FUTURE 
-    *  @param {String} code The code to append
-    *  @param {String} fileType The file type to append to
-    */
+     *  Directly appends to file - NOTE THIS WILL MOST LIKELY BE REMOVED IN THE FUTURE 
+     *  @param {String} code The code to append
+     *  @param {String} fileType The file type to append to
+     */
     dirAppend(code: String, fileType: String) {
         DirAppend(code, fileType);
     }
 
     /**
-    *  Ends the html document
-    */
+     *  Ends the html document
+     */
     end() {
         EndHtml();
     }
